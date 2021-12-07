@@ -45,7 +45,7 @@ def calculateSimilarity(sentence, doc):
 	for word in sentence:
 		vocab[word] = 0
 	
-	docInOneSentence = '';
+	docInOneSentence = ''
 	for t in doc:
 		docInOneSentence += (t + ' ')
 		for word in t.split():
