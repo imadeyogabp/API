@@ -5,7 +5,7 @@ import requests
 import operator
 import time
 from requests.api import request
-from colorama import colored
+
 
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from sklearn.feature_extraction.text import CountVectorizer
